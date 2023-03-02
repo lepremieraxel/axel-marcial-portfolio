@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINK -->
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/logo/logo.svg" type="image/svg">
+    <!-- TITLE -->
+    <title>Axel Marcial - Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <a href="./" id="h_group">
+        <svg
+          id="header-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 840.74 650.4"
+        >
+          <polygon
+            points="840.74 0 840.74 650.4 750.74 650.4 750.74 218 716.01 310.2 619.84 310.2 702.79 90 736.69 0 750.74 0 750.74 .21 750.82 0 840.74 0"
+          />
+          <polygon
+            points="704.7 340.2 621.75 560.4 587.85 650.4 482.22 650.4 448.32 560.4 420.37 486.21 377.98 373.67 365.37 340.2 462.43 340.2 480.93 386.37 516.99 476.37 537.74 528.14 608.54 340.2 704.7 340.2"
+          />
+          <polygon
+            points="385.53 478.22 299.64 478.68 213.68 479.34 160.47 479.74 130.08 560.4 96.17 650.4 0 650.4 33.9 560.4 65.56 476.37 99.46 386.37 116.85 340.2 213.03 340.2 195.64 386.37 351.13 386.37 385.53 478.22"
+          />
+          <polygon
+            points="450.25 310.2 354.06 310.2 289.2 138.02 224.34 310.2 128.16 310.2 211.11 90 241.11 10.36 245.01 0 333.39 0 337.29 10.37 367.29 90 450.25 310.2"
+          />
+        </svg>
+        <h1>Axel <span>Marcial</span></h1>
+      </a>
+      <nav>
+        <a href="#about"><span></span>About</a>
+        <a href="#works"><span></span>Works</a>
+        <a href="#contact"><span></span>Contact</a>
+      </nav>
+    </header>
+    <main id="about">
+      <div class="bloc double_w" id="aboutDiv">
+        <p>Salut ! Je suis Axel, développeur web junior et étudiant en MMI à l'IUT de Tarbes.
+          Je suis passionné par l'informatique et en ce moment plus particulièrement par le web3. J'adore créer, que ça soit graphique ou juste fonctionnel.
+          Grâce à MMI, je n'ai pas seulement un profil de développeur, je sais m'improviser graphiste quand j'en ai besoin ou même webdesigner, photographe ou vidéaste.
+          </p>
+      </div>
+      <a href="#contact" class="bloc simple" id="cta-contact">
+        <p>N'hésitez pas, envoyez moi un message.</p>
+        <!-- <i class="ri-send-plane-fill"></i> -->
+        <canvas class="webgl0"></canvas>
+      </a>
+      <div id="works"></div>
+      <div class="slider">
+        <div class="blocs">
+          <a href="ana-esthetik" class="bloc ana-esthetik"><div class="bloc-hover"></div></a>
+          <a href="yoda" class="bloc yoda"></a>
+          <a href="sharky-wine" class="bloc sharky-wine"></a>
+          <a href="retour-futur" class="bloc retour-futur"></a>
+          <a href="cant-stop-the-machine" class="bloc cant-stop-the-machine"></a>
+          <a href="ana-esthetik" class="bloc ana-esthetik"></a>
+          <a href="yoda" class="bloc yoda"></a>
+          <a href="sharky-wine" class="bloc sharky-wine"></a>
+          <a href="retour-futur" class="bloc retour-futur"></a>
+          <a href="cant-stop-the-machine" class="bloc cant-stop-the-machine"></a>
+        </div>
+      </div>
+      <a href="axel" id="axel" class="bloc simple"><canvas class="webgl1"></canvas></a>
+      <div class="bloc double_w" id="double_w"></div>
+      <a href="neonprod" id="neonprod" class="bloc simple"></a>
+      <a href="safe" id="safe" class="bloc simple"></a>
+      <div class="bloc" id="double_h"></div>
+      <a href="webdocu" id="webdocu" class="bloc double_h" id="double_h"></a>
+      <a href="votevote" id="votevote" class="bloc simple"></a>
+    </main>
+    <script src="./src/js/navEvent.js"></script>
+    <script type="importmap">
+      {
+          "imports": {
+            "three": "./src/js/three/build/three.module.js"
+          }
+        }
+      </script>
+    <script type="module" src="./src/js/logo3d.js"></script>
+    <script type="module" src="./src/js/send3d.js"></script>
+    <script src="./src/js/dataProcessing.js"></script>
+  </body>
+</html>

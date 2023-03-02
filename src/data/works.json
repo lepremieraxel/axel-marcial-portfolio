@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ana-esthetik",
+    "title": "Ana Esthetik",
+    "text": "Pendant mon stage chez Ana Esthetik, j'ai realise un logo.",
+    "type": "logo",
+    "year": "2022",
+    "mainImg": "ana-esthetik.png"
+  },
+  {
+    "name": "yoda",
+    "title": "Bebe Yoda",
+    "text": "pour un projet de cours",
+    "type": "illustration",
+    "year": "2022",
+    "mainImg": "yoda.png"
+  },
+  {
+    "name": "sharky-wine",
+    "title": "Bebe sharky-wine",
+    "text": "pour un projet de cours",
+    "type": "illustration",
+    "year": "2022",
+    "mainImg": "sharky-wine.png"
+  },
+  {
+    "name": "retour-futur",
+    "title": "Bebe retour-futur",
+    "text": "pour un projet de cours",
+    "type": "illustration",
+    "year": "2022",
+    "mainImg": "retour-futur.png"
+  },
+  {
+    "name": "cant-stop-the-machine",
+    "title": "Bebe cant-stop-the-machine",
+    "text": "pour un projet de cours",
+    "type": "illustration",
+    "year": "2022",
+    "mainImg": "cant-stop-the-machine.png"
+  }
+]
